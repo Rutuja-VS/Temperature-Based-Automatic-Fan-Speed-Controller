@@ -190,7 +190,7 @@ The prototype photograph is included below.
 ## Video Demonstration
 
 <!-- Replace the placeholder below with the public YouTube, Google Drive, or other video URL. -->
-[Watch the project demonstration](docs/video_demo.mp4)
+[Watch the project demonstration](https://youtu.be/pi0NTht5JeU)
 
 ## Team and Project Information
 
