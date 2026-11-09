@@ -22,9 +22,7 @@ An Embedded Systems project that monitors temperature using an LM35 sensor and c
 
 The Temperature-Based Automatic Fan Speed Controller is designed to adjust the fan operating mode according to the surrounding temperature. The LM35 temperature sensor provides an analog temperature signal to the STM32 microcontroller. The controller reads this signal using the ADC and selects a fan mode based on predefined temperature thresholds.
 
-The project also provides a manual control option through an HC-05 Bluetooth module. An SSD1306 OLED display shows system information, and a Python-based GUI receives temperature readings, plots them in real time, and allows the user to change the operating mode.
-
-> **Implementation note:** In the current firmware, the fan actuator is represented by a servo motor controlled using PWM. The servo sweeps between configured angles at different rates for the LOW, NORMAL, and HIGH modes. The code does not directly generate a variable-speed DC fan motor drive.
+It also provides a manual control option through an HC-05 Bluetooth module. An SSD1306 OLED display shows system information, and a Python-based GUI receives temperature readings, plots them in real time, and allows the user to change the operating mode.
 
 ## Features
 
