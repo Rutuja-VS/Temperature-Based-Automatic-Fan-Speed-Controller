@@ -124,7 +124,7 @@ Temperature-Based-Automatic-Fan-Speed-Controller/
 
 ## How to Run the STM32 Code
 
-The attached Keil 5 setup document contains screenshots for opening µVision, creating/opening a project, selecting a target device, adding a C source file, building, and downloading the program using ST-LINK. Follow the same workflow for this project, using `FanController.c` and the MCU that matches your actual development board.
+ `FanController.c`
 
 1. **Connect the board:** Connect the STM32 board to the computer using ST-LINK. Complete the sensor, OLED, Bluetooth, and servo wiring using the pin mapping above.
 2. **Open Keil µVision 5:** Launch Keil µVision 5.
@@ -135,8 +135,6 @@ The attached Keil 5 setup document contains screenshots for opening µVision, cr
 7. **Build the project:** Select **Project → Build Target** (or press `F7`). Resolve any device-pack, include-path, or configuration errors before proceeding.
 8. **Download to the board:** Use **Flash → Download** (or the configured download button) to program the STM32. Wait for the programming and verification process to complete.
 9. **Run and verify:** Reset or run the target. Check that the OLED initializes and displays the temperature, fan mode, and control mode. Verify the Bluetooth link and servo response.
-
-> The supplied setup document illustrates a Keil/ST-LINK workflow with a small example source file. It does not specify every project setting for this fan controller, so the selected MCU, clock configuration, startup files, and debugger settings must match your actual board and project.
 
 ## How to Run the Python GUI
 
